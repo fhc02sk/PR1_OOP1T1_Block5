@@ -13,6 +13,7 @@ public class DigitSumRecursiveDemoApp {
         1. Think about stop condition
         2. Think about the tiny solution / what do you need to do for a single number (like 8)
             123456 => 8 / 5
+            getDigitSum(8) => getDigitSum(5) => getDigitSum(9) // Einstellige Zahlen
         3. What is the task of the method
      */
     public static int getDigitSum(int number) {
@@ -23,4 +24,15 @@ public class DigitSumRecursiveDemoApp {
         }
         return sum;
     }
+
+    public static int power(int a, int b) {
+        /* calculate a exp b (a hoch b) with a recursion */
+        return 0;
+    }
+
+    public static int multiplicate(int a, int b) {
+        /* Multiplicate a * b, but just do it with + and recursion */
+        return 0;
+    }
+
 }

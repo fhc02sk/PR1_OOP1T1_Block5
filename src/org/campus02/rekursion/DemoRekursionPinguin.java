@@ -4,7 +4,6 @@ public class DemoRekursionPinguin {
 
     public static void main(String[] args) {
         lesen(">");
-        reduce(99, 0);
     }
 
     public static void lesen(String indent) {
@@ -12,7 +11,5 @@ public class DemoRekursionPinguin {
         lesen("-" + indent);
     }
 
-    public static void reduce(int value, int stopvalue) {
 
-    }
 }

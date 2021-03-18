@@ -91,7 +91,14 @@ public class LinkedList {
         }
     }
 
-    // delete
     // einfügen an bestimmter stelle
+    public void addElement(int position, int value) {
+        Node newWagon = new Node();
+        newWagon.value = value;
+
+
+    }
+
+
     // changeValue
 }

@@ -82,6 +82,7 @@ public class LinkedList {
                         // last manipulieren
                         last = current;
                     }
+                    break;
                 }
 
                 current = current.next;

@@ -33,6 +33,12 @@ public class TrainDemoApp {
         System.out.println("linkedList.getAt(8) = " + linkedList.getAt(8).value);
         System.out.println("linkedList.getAt(10) = " + linkedList.getAt(10));
 
+        System.out.println(
+                linkedList.getAt(3).value +
+                        linkedList.getAt(5).value
+
+        );
+
         linkedList.printAllNodes();
         System.out.println();
         linkedList.deleteAt(3);

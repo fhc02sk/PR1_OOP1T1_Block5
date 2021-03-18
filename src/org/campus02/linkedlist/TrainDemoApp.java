@@ -49,5 +49,25 @@ public class TrainDemoApp {
         linkedList.printAllNodes();
         System.out.println();
 
+
+        linkedList.addElement(3, 22);
+        linkedList.printAllNodes();
+        System.out.println();
+
+        linkedList.addElement(1, 1);
+        linkedList.printAllNodes();
+        System.out.println();
+
+        linkedList.addElement(9, 99);
+        linkedList.printAllNodes();
+        System.out.println();
+
+        linkedList.add(199);
+        linkedList.printAllNodes();
+        System.out.println();
+
+        linkedList.changeValue(4, 25);
+        linkedList.printAllNodes();
+        System.out.println();
     }
 }

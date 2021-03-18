@@ -96,14 +96,53 @@ public class LinkedList {
         Node newWagon = new Node();
         newWagon.value = value;
 
+        if (first == null) {
+            // we have an empty train
+            first = newWagon;
+            last = newWagon;
+            return;
+        }
+
         // sind wir am Anfang?
         // Element einfügen - neu verketten
+        Node current = first;
+        int index = 1;
+        position = position - 1;
+        if (position == 0) {
+            first = newWagon;
+            newWagon.next = current;
+            return; // our work is done
+        }
+        while (current != null){
+            if (position == index) {
+                Node next = current.next;   // 37
+                current.next = newWagon;
+                newWagon.next = next;
+                if (current == last) { //
+                    //last.next = newWagon;
+                    last = newWagon;
+                }
+                break;
+            }
+            current = current.next;
+            index++;
+        }
     }
 
 
     // changeValue
     public void changeValue(int position, int newValue){
 
+        Node current = first;
+        int index = 1;
+        while (current != null) {
+            if (position == index) {
+                current.value = newValue;
+                break;
+            }
+            current = current.next;
+            index++;
+        }
     }
 
 }

@@ -101,4 +101,8 @@ public class LinkedList {
 
 
     // changeValue
+    public void changeValue(int position, int newValue){
+
+    }
+
 }

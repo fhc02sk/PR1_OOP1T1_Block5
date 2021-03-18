@@ -57,6 +57,7 @@ public class DigitSumRecursiveDemoApp {
         return a * power(a, b - 1);
     }
 
+    // AAA - complicated
     public static int multiplicate(int a, int b) {
         /* Multiplicate a * b, but just do it with + and recursion */
 

@@ -32,5 +32,22 @@ public class TrainDemoApp {
         System.out.println("linkedList.getAt(5) = " + linkedList.getAt(5).value);
         System.out.println("linkedList.getAt(8) = " + linkedList.getAt(8).value);
         System.out.println("linkedList.getAt(10) = " + linkedList.getAt(10));
+
+        linkedList.printAllNodes();
+        System.out.println();
+        linkedList.deleteAt(3);
+        linkedList.printAllNodes();
+        System.out.println();
+        linkedList.deleteAt(1);
+        linkedList.printAllNodes();
+        System.out.println();
+
+        linkedList.deleteAt(6);
+        linkedList.printAllNodes();
+        System.out.println();
+        linkedList.add(74);
+        linkedList.printAllNodes();
+        System.out.println();
+
     }
 }

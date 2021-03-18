@@ -78,7 +78,7 @@ public class LinkedList {
 
                     deleteNode.next = null; // damit unser node nicht mehr auf den nächsten zeigt
 
-                    if (deleteNode == last){ // bin ich am letzten Knoten
+                    if (last == deleteNode){ // bin ich am letzten Knoten
                         // last manipulieren
                         last = current;
                     }
@@ -96,7 +96,8 @@ public class LinkedList {
         Node newWagon = new Node();
         newWagon.value = value;
 
-
+        // sind wir am Anfang?
+        // Element einfügen - neu verketten
     }
 
 
